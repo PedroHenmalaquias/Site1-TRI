@@ -1,0 +1,119 @@
+<script>
+
+    //ENTRADA
+
+    const peso = prompt("insira o peso de um veículo fictício (em kg e sem separador dde milhar)").replace(",", ".");
+    const potencia = prompt("Insira a potência desse veículo fictício (em cavalos(cv) e sem separador de milhar.)");
+    //PROCESSAMENTO
+
+    const pesoPotencia = Number(peso / potencia);
+
+    //SAÍDA
+
+    alert(`A relação peso potência desse carro é igual à ${pesoPotencia} kg/cv.`);
+
+</script>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super esportivos</title>
+    <link rel="icon" href="icon2.jpg">
+    <link rel="stylesheet" href="principal.css">
+</head>
+
+<body>
+    <a href="index.html" target="_blank" class="button" style="margin-left: 500px;">Página principal</a>
+    <a href="bugatti.html" target="_blank" class="button">Bugatti</a>
+    <a href="ferrari.html" target="_blank" class="button">Ferrari</a>
+    <a href="koenigsegg.html" target="_blank" class="button">Koenigsegg</a>
+    <a href="curiosidades.html" target="_blank" class="button">Curiosidades</a>
+    <hr>
+    <h1>Curiosidades sobre o mundo automotivo</h1>
+    <br>
+    <p>Como você acabou de ver, existe um valor muito importante para avaliar o desempenho de um veículo, esse valor é a
+        relação peso potência que consiste na divisão entre o peso do veículo e a potência do mesmo, e quanto mais baixo
+        esse valor, melhor é o desempenho do veículo</p>
+    <br>
+    <img src="https://s2.glbimg.com/iQ6SN-MLcx96avEDDG-XINbz21Y=/0x0:1024x656/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/8/A/3QyBePTwiaC3rjVtV90Q/gettyimages-1480493614.jpg"
+        alt="Corrida de Fórmula 1" class="center">
+    <p>Os carros de Fórmula 1 possuem um peso mínimo de 798 kg e uma potência em torno de 1000 cv, o que faz com que o
+        valor da relação peso Potência desses carros seja bem baixo, resultando em um desempenho melhor.</p>
+    <br>
+    <h1>Carros mais rápidos do mundo atualmente</h1>
+    
+    <table>
+        <div class="grid-container">
+            <tr>
+                <td>
+                    <div class="grid-item"><strong>Marca</strong></div>
+                </td>
+                <td>
+                    <div class="grid-item"><strong>Modelo</strong></div>
+                </td>
+                <td>
+                    <div class="grid-item"><strong>Velocidade máxima</strong></div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="grid-item">Koenigsegg</div>
+                </td>
+                <td>
+                    <div class="grid-item">Jesko Absolut</div>
+                </td>
+                <td>
+                    <div class="grid-item">500 km/h</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="grid-item">Hennessey</div>
+                </td>
+                <td>
+                    <div class="grid-item">Venom F5</div>
+                </td>
+                <td>
+                    <div class="grid-item">495 km/h</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="grid-item">Bugatti</div>
+                </td>
+                <td>
+                    <div class="grid-item">Bolide</div>
+                </td>
+                <td>
+                    <div class="grid-item">490 km/h</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="grid-item">Bugatti</div>
+                </td>
+                <td>
+                    <div class="grid-item">Chiron Super Sport 300+</div>
+                </td>
+                <td>
+                    <div class="grid-item">483 km/h </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="grid-item">SSC</div>
+                </td>
+                <td>
+                    <div class="grid-item">Tuatara</div>
+                </td>
+                <td>
+                    <div class="grid-item">455,3 km/h</div>
+                </td>
+            </tr>
+        </div>
+    </table>
+</body>
+
+</html>
